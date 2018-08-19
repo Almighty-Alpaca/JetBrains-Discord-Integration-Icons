@@ -1,0 +1,867 @@
+{
+  "name": "Default",
+  "description": "The original icons",
+  "application": "465181469766320150",
+  "icons": [
+    {
+      "name": "Android Studio",
+      "asset": "android-studio",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "AI"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppCode",
+      "asset": "appcode",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "OC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLion",
+      "asset": "clion",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "CL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DataGrip",
+      "asset": "datagrip",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "DB"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoLand",
+      "asset": "goland",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "GO"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Community",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Ultimate",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IU"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MPS",
+      "asset": "mps",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "MPS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhpStorm",
+      "asset": "phpstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Community",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Edu",
+      "asset": "pycharm-edu",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PE"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Professional",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PY"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rider",
+      "asset": "rider",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RD"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyMine",
+      "asset": "rubymine",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RM"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebStorm",
+      "asset": "webstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "WS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C#",
+      "asset": "csharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cs",
+              ".csx",
+              ".csscript"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CMake",
+      "asset": "cmake",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "equals",
+            "match": [
+              "CMakeLists.txt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Go",
+      "asset": "go",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".go"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTML",
+      "asset": "html",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".html",
+              ".htm"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSON",
+      "asset": "json",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erlang",
+      "asset": "erlang",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".erl",
+              ".hrl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Groovy",
+      "asset": "groovy",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".groovy"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "YAML",
+      "asset": "yaml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".yaml",
+              ".yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TypeScript",
+      "asset": "typescript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ts",
+              ".tsx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shell",
+      "asset": "shell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".sh"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Handlebars.js",
+      "asset": "handlebars",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".hbs",
+              ".handlebars"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JavaScript",
+      "asset": "javascript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".js",
+              ".jsx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lua",
+      "asset": "lua",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lua"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PHP",
+      "asset": "php",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".php"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "F#",
+      "asset": "fsharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".fs",
+              ".fsx",
+              ".fsi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Markdown",
+      "asset": "markdown",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".md",
+              ".markdown"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "asset": "ruby",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": ".htaccess",
+      "asset": "apache",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "equals",
+            "match": [
+              ".htaccess"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Python",
+      "asset": "python",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".py"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerShell",
+      "asset": "powershell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ps1",
+              ".ps1xml",
+              ".psc1",
+              ".psd1",
+              ".psm1",
+              ".pssc",
+              ".cdxml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java",
+      "asset": "java",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".java"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C++",
+      "asset": "cpp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cpp",
+              ".c++",
+              ".cc",
+              ".cxx",
+              ".hpp",
+              ".h++",
+              ".hh",
+              ".hxx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CSS",
+      "asset": "css",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".css"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rust",
+      "asset": "rust",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scala",
+      "asset": "scala",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".scala",
+              ".sc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twig",
+      "asset": "twig",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".twig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C\u200b",
+      "asset": "c",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".c",
+              ".h"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ceylon",
+      "asset": "ceylon",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ceylon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sass",
+      "asset": "sass",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".sass",
+              ".scss"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golo",
+      "asset": "golo",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".golo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kotlin",
+      "asset": "kotlin",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".kt",
+              ".kts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SQL",
+      "asset": "sql",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".sql"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vue.js",
+      "asset": "vue",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".vue"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeScript",
+      "asset": "coffeescript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".coffee",
+              ".litcoffee"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Git",
+      "asset": "git",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gitmodules",
+              ".gitignore",
+              ".gitattributes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "XML",
+      "asset": "xml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".xml",
+              ".cxml",
+              ".fxml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slim",
+      "asset": "slim",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".slim"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swift",
+      "asset": "swift",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".swift"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gradle",
+      "asset": "gradle",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gradle",
+              ".gradle.kts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elixir",
+      "asset": "elixir",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ex",
+              ".exs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dart",
+      "asset": "dart",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dart"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
