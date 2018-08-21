@@ -12,7 +12,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.Objects;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
@@ -40,20 +39,23 @@ public class Main
         try
         {
             GitChangeProvider changeProvider = new GitChangeProvider();
-            boolean forceAll = changeProvider.isForceAll();
+            Mode mode = changeProvider.getMode();
 
             Path icons = Paths.get("icons/").toAbsolutePath();
             Collection<RepoReader.Theme> themes = RepoReader.getThemes(icons);
 
-            if (forceAll)
+            System.out.println("Mode: " + mode.name().toLowerCase());
+
+            switch (mode)
             {
-                System.out.println("Mode: all");
-                this.processAll(client, themes, icons);
-            }
-            else
-            {
-                System.out.println("Mode: changes");
-                this.processChanges(client, changeProvider, themes, icons);
+                case ALL:
+                    this.processAll(client, themes, icons);
+                    break;
+                case CHANGES:
+                    this.processChanges(client, changeProvider, themes, icons);
+                    break;
+                case NONE:
+                    break;
             }
         }
         catch (IOException | GitAPIException e)

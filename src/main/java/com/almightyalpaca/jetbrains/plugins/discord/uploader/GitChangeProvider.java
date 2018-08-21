@@ -1,6 +1,7 @@
 package com.almightyalpaca.jetbrains.plugins.discord.uploader;
 
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.diff.DiffEntry;
@@ -33,9 +34,16 @@ public class GitChangeProvider
         this.git = Git.wrap(repo);
     }
 
-    public boolean isForceAll() throws IOException
+    public Mode getMode() throws IOException
     {
-        return repo.parseCommit(repo.resolve("HEAD")).getFullMessage().contains("CiForceAll");
+        String message = repo.parseCommit(repo.resolve("HEAD")).getFullMessage();
+
+        if (StringUtils.containsIgnoreCase(message, "CiForceAll"))
+            return Mode.ALL;
+        else if (StringUtils.containsIgnoreCase(message, "CiForceNone"))
+            return Mode.NONE;
+        else
+            return Mode.CHANGES;
     }
 
     @SuppressWarnings("SameParameterValue")
