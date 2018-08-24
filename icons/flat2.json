@@ -1,8 +1,8 @@
 {
-  "name": "Classic",
-  "description": "The original icons",
-  "credits" : "[Almighty Alpaca](https://github.com/Almighty-Alpaca/) for compiling the pack",
-  "application": "465181469766320150",
+  "name": "Flat",
+  "description": "Flat modern icons",
+  "credits" : "[MrSquaare](https://github.com/MrSquaare/Icongram) for providing the icons\n[Almighty Alpaca](https://github.com/Almighty-Alpaca/) for compiling the pack",
+  "application": "482568981912223744",
   "icons": [
     {
       "name": "Android Studio",
@@ -859,6 +859,69 @@
             "variant": "endsWith",
             "match": [
               ".dart"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Less",
+      "asset": "less",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".less"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perl",
+      "asset": "perl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pl",
+			  ".pm",
+			  ".t",
+			  ".pod"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stylus",
+      "asset": "stylus",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".styl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tonl",
+      "asset": "toml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".toml"
             ]
           }
         ]

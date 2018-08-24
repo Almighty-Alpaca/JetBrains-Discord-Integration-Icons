@@ -1,0 +1,1929 @@
+{
+  "name": "Flat",
+  "description": "Flat modern icons",
+  "credits" : "[MrSquaare](https://github.com/MrSquaare/Icongram) for providing the icons",
+  "application": "482295065138692107",
+  "icons": [
+    {
+      "name": "Android Studio",
+      "asset": "android-studio",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "AI"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppCode",
+      "asset": "appcode",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "OC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLion",
+      "asset": "clion",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "CL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DataGrip",
+      "asset": "datagrip",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "DB"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoLand",
+      "asset": "goland",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "GO"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Community",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Ultimate",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IU"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MPS",
+      "asset": "mps",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "MPS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhpStorm",
+      "asset": "phpstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Community",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Edu",
+      "asset": "pycharm-edu",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PE"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Professional",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PY"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rider",
+      "asset": "rider",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RD"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyMine",
+      "asset": "rubymine",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RM"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebStorm",
+      "asset": "webstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "WS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ActionScript",
+      "asset": "as",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".swf",
+              ".as",
+              ".jsfl",
+              ".swc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ada",
+      "asset": "ada",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ada|adb|ads)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular",
+      "asset": "angular",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^angular[^.]*\\.js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arduino",
+      "asset": "arduino",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ino"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ASP.net",
+      "asset": "asp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".asp",
+              ".asax",
+              ".ascx",
+              ".ashx",
+              ".asmx",
+              ".aspx",
+              ".axd"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Assembly",
+      "asset": "binary",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".agc",
+              ".ko",
+              ".lst",
+              ".d-objdump",
+              ".swp",
+              ".DS_Store"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(l?a|[ls]?o|out|s|a51|asm|axf|elf|prx|puff|z80)$",
+              "(?i)\\.((c([+px]{2}?)?-?)?objdump|bsdiff|bin|dat|pak|pdb)$",
+              "(?i)\\.gcode|\\.gco",
+              "(?i)\\.rpy[bc]$",
+              "(?i)\\.py[co]$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoHotkey",
+      "asset": "ahk",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ahk",
+              ".ahkl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoIt",
+      "asset": "autoit",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".au3"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backbone",
+      "asset": "backbone",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^backbone([-.]min|dev)?\\.js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "BibTeX",
+      "asset": "bibtex",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cbx",
+              ".bbx",
+              ".bib",
+              ".bst"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Boo",
+      "asset": "boo",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".boo"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bower",
+      "asset": "bower",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^(\\.bowerrc|bower\\.json|Bowerfile)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brainfuck",
+      "asset": "brain",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.bf?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bundler",
+      "asset": "bundler",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^Gemfile(\\.lock)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C++",
+      "asset": "cpp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cats",
+              ".idc",
+              ".w",
+              ".nc",
+              ".upc",
+              ".xpm"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.c[+px]{2}$|\\.cc$",
+              "(?i)\\.h[+px]{2}$",
+              "(?i)\\.[it]pp$",
+              "(?i)\\.(tcc|inl)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C#",
+      "asset": "csharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C#-Script",
+      "asset": "csscript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".csx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caffe",
+      "asset": "caffe",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".caffemodel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clojure",
+      "asset": "clojure",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".clj",
+              ".cl2",
+              ".cljc",
+              ".cljx",
+              ".hic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClojureScript",
+      "asset": "cljs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.cljs(cm)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CMake",
+      "asset": "cmake",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cmake"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "^CMakeLists\\.txt$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "COBOL",
+      "asset": "cobol",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(cob|ccp|cbl|cobol|cpy)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeScript",
+      "asset": "coffee",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".coffee",
+              ".cjsx",
+              ".coffee.ecr",
+              ".coffee.erb",
+              ".litcoffee",
+              ".iced"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Common Lisp",
+      "asset": "cl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "asset": "crystal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.e?cr$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CSS",
+      "asset": "css3",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".css",
+              ".less",
+              ".scss",
+              ".sass"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(styl|stylus)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CUDA",
+      "asset": "nvidia",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cu",
+              ".cuh"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "cURL",
+      "asset": "curl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^\\.curlrc$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "D",
+      "asset": "dlang",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.di?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dart",
+      "asset": "dart",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dart"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Data",
+      "asset": "database",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cson",
+              ".json5",
+              ".http",
+              ".ndjson",
+              ".fea",
+              ".json.eex",
+              ".proto",
+              ".pytb",
+              ".pydeps",
+              ".ejson",
+              ".edn",
+              ".eam.fs",
+              ".qml",
+              ".qbs",
+              ".ston",
+              ".ttl",
+              ".rviz",
+              ".syntax",
+              ".webmanifest",
+              "lib/icons/.icondb.js"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(h|geo|topo)?json$",
+              "(?i)\\.ya?ml$",
+              "(?i)\\.pot?$",
+              "^pkginfo$/",
+              "(?i)^mime\\.types$",
+              "^METADATA\\.pb$/",
+              "(?i)[\\/\\\\](?:magic[\\/\\\\]Magdir|file[\\/\\\\]magic)[\\/\\\\][-.\\w]+$",
+              "(\\\\|\\/)dev[-\\w]+\\1(?:[^\\\\\\/]+\\1)*(?!DESC|NOTES)(?:[A-Z][-A-Z]*)(?:\\.in)?$/",
+              "\\.git[\\/\\\\](.*[\\/\\\\])?(HEAD|ORIG_HEAD|packed-refs|logs[\\/\\\\](.+[\\/\\\\])?[^\\/\\\\]+)$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Delphi",
+      "asset": "delphi",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dfm",
+              ".dpr"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Docker",
+      "asset": "docker",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^(Dockerfile|docker-compose)|\\.docker(file|ignore)$",
+              "(?i)^docker-sync\\.yml$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elixir",
+      "asset": "elixir",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ex"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(exs|eex)$",
+              "(?i)^mix\\.(exs?|lock)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ember",
+      "asset": "ember",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^ember(\\.|(-[^.]+)?-(\\d+\\.)+(debug\\.)?)js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erlang",
+      "asset": "erlang",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".erl",
+              ".beam",
+              ".hrl",
+              ".xrl",
+              ".yrl",
+              ".app.src"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "^Emakefile$/",
+              "(?i)^rebar(\\.config)?\\.lock$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fortran",
+      "asset": "fortran",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".f",
+              ".f90",
+              ".f03",
+              ".f08",
+              ".f77",
+              ".f95",
+              ".for",
+              ".fpp"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FSharp",
+      "asset": "fsharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.fs[xi]?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GameMaker Language",
+      "asset": "gml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Git",
+      "asset": "git",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^\\.git|^\\.keep$|\\.mailmap$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Go",
+      "asset": "go",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".go"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gradle",
+      "asset": "gradle",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gradle",
+              "gradlew"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Groovy",
+      "asset": "groovy",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(groovy|grt|gtpl|gsp|gvy)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hack",
+      "asset": "hack",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".hh"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haskell",
+      "asset": "haskell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".hs",
+              ".hsc",
+              ".c2hs",
+              ".lhs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTML",
+      "asset": "html5",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cshtml",
+              ".gohtml",
+              ".html.eex",
+              ".jsp",
+              ".kit",
+              ".latte",
+              ".phtml",
+              ".shtml",
+              ".scaml",
+              ".swig",
+              ".vash",
+              ".xht",
+              ".dtml",
+              ".pug",
+              ".jade",
+              ".ejs",
+              ".haml",
+              ".hamlc",
+              ".haml.deface",
+              ".soy"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.x?html?$",
+              "(?i)\\.html?\\.ecr$",
+              "(?i)\\.(html?\\.erb(\\.deface)?|rhtml)$",
+              "(?i)\\.(hbs|handlebars|(mu)?stache)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java",
+      "asset": "java",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".java"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JavaScript",
+      "asset": "js",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".js",
+              "._js",
+              ".jsb",
+              ".jsm",
+              ".jss",
+              ".es6",
+              ".es",
+              ".mjs",
+              ".sjs",
+              ".ssjs",
+              ".xsjs",
+              ".xsjslib",
+              ".dust",
+              ".js.ecr",
+              ".js.erb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSX",
+      "asset": "jsx",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".jsx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kotlin",
+      "asset": "kotlin",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".kt",
+              ".ktm",
+              ".kts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lisp",
+      "asset": "lisp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lsp",
+              ".lisp",
+              ".l",
+              ".nl",
+              ".ny",
+              ".podsl",
+              ".sexp"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LLVM",
+      "asset": "llvm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ll"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.clang-(format|tidy)$",
+              "(?i)^ubsan\\.blacklist$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lua",
+      "asset": "lua",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lua",
+              ".pd_lua",
+              ".rbxs",
+              ".wlua"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Makefile",
+      "asset": "checklist",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".am",
+              ".bb",
+              ".mms",
+              ".mmk",
+              ".pri"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "^Makefile/",
+              "^mk\\.config$/",
+              "(?i)\\.(mk|mak|make)$",
+              "(?i)^BSDmakefile$",
+              "(?i)^GNUmakefile$",
+              "(?i)^makefile\\.sco$",
+              "^Kbuild$/",
+              "^makefile$/",
+              "(?i)^mkfile$",
+              "(?i)^\\.?qmake$",
+              "^DEPS$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manual Page",
+      "asset": "manpage",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(1([bcmstx]|has|in)?|[24568]|3(avl|bsm|cfgadm|in|[cmx]|qt)?|7(d|fs|i|ipp|m|p)?|9[efps]?|chem|eqn|groff|man|mandoc|mdoc|me|mom|nr?|nroff|pic|roff?|tmac|tmac-u|tr|troff)$",
+              "(?i)\\.(rnh|rno|run|runoff)$",
+              "(?i)^tmac\\.|^(mmn|mmt|toc\\.entries)$",
+              "([\\\\\\/])(?:man(\\w+)\\1[^\\\\\\/]+\\.\\2|(?:tmac|eqnchar)\\.d\\1(?:ms\\.)?[^\\\\\\/.]+(?:\\.in)?)$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Markdown",
+      "asset": "markdown",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(md|mdown|markdown|mkd|mkdown|mdwn|mkdn|rmd|ron|pmd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NSIS",
+      "asset": "nsis",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".nsi",
+              ".nsh"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Objective-C",
+      "asset": "objc",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pch",
+              ".x"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.mm?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OCaml",
+      "asset": "ocaml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ml",
+              ".mli",
+              ".eliom",
+              ".eliomi",
+              ".ml4",
+              ".mll",
+              ".mly"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenCL",
+      "asset": "opencl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".opencl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenGL",
+      "asset": "opengl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^(GLSL|GLslang)$",
+              "(?i)\\.(glslv?|gsh|gshader)$",
+              "(?i)\\.(vert|vrx|vertex|vsh(ader)?)$",
+              "(?i)\\.(fra?g|fp|fsh|fshader)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pascal",
+      "asset": "pascal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lpr"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.pas(cal)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perl",
+      "asset": "perl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".al",
+              ".ph",
+              ".plx",
+              ".pm",
+              ".pl6",
+              ".6pm",
+              ".nqp",
+              ".p6l",
+              ".pod6"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.p(er)?l$",
+              "(?i)\\.(psgi|xs)$",
+              "(?i)\\.[tp]6$|\\.6pl$",
+              "(?i)\\.(pm6|p6m)$",
+              "^Rexfile$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PHP",
+      "asset": "php",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.php([st\\d]|_cs)?$",
+              "^Phakefile/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerShell",
+      "asset": "powershell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ps1",
+              ".psd1",
+              ".psm1",
+              ".ps1xml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Processing",
+      "asset": "processing",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pde"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prolog",
+      "asset": "prolog",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pro",
+              ".prolog",
+              ".yap"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Python",
+      "asset": "python",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".py",
+              ".ipy",
+              ".isolate",
+              ".pep",
+              ".gyp",
+              ".gypi",
+              ".pyde",
+              ".pyp",
+              ".pyt",
+              ".py3",
+              ".pyi",
+              ".pyw",
+              ".tac",
+              ".wsgi",
+              ".xpy",
+              ".rpy"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.?(pypirc|pythonrc|python-venv)$",
+              "^(SConstruct|SConscript)$/",
+              "^(Snakefile|WATCHLISTS)$/",
+              "^wscript$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "R",
+      "asset": "r",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(r|Rprofile|rsx|rd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Readme",
+      "asset": "book",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^README(\\b|_)|^(licen[sc]es?(\\.mysql)?|(read|readme|click|delete|keep|test)\\.me)$|\\.(readme|1st|licen[sc]es?)$",
+              "(?i)^(notice|bugs|changes|change[-_]?log([-._]?\\d+)?|contribute|contributing|contributors|copying(\\.regex)?|hacking|history|install|maintainers|manifest|more\\.stuff|notes|problems|projects|revision|terms|thanks|warnings)(_\\w+)?$",
+              "(?i)\\b(changelog|copying(v?\\d)?|install|read[-_]?me)\\b|^licen[sc]es?[-._]",
+              "(?i)^news([-_.]?[-\\d]+)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RegExp",
+      "asset": "regex",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.regexp?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RSS",
+      "asset": "rss",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rss"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "asset": "ruby",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".watchr"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(rb|ru|ruby|erb|gemspec|god|mspec|pluginspec|podspec|rabl|rake|opal)$",
+              "(?i)^\\.?(irbrc|gemrc|pryrc|ruby-(gemset|version))$",
+              "^(Appraisals|(Rake|[bB]uild|Cap|Danger|Deliver|Fast|Guard|Jar|Maven|Pod|Puppet|Snap)file(\\.lock)?)$/",
+              "(?i)\\.(jbuilder|rbuild|rb[wx]|builder)$",
+              "^rails$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rust",
+      "asset": "rust",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rs",
+              ".rlib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scala",
+      "asset": "scala",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(sc|scala)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scheme",
+      "asset": "scheme",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".scm",
+              ".sld",
+              ".sps"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shell",
+      "asset": "terminal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".sh-session",
+              ".inputrc",
+              ".tmux",
+              ".profile",
+              ".tcsh",
+              ".csh"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(sh|rc|bats|bash|tool|install|command)$",
+              "(?i)^(\\.?bash(rc|[-_]?(profile|login|logout|history|prompt))|_osc|config|install-sh|PKGBUILD)$",
+              "(?i)\\.(ksh|mksh|pdksh)$",
+              "(?i)\\.zsh(-theme|_history)?$|^\\.?(antigen|zpreztorc|zlogin|zlogout|zprofile|zshenv|zshrc)$",
+              "(?i)\\.fish$|^\\.fishrc$",
+              "^\\.?(login|profile)$/",
+              "^(configure|config\\.(guess|rpath|status|sub)|depcomp|libtool|compile)$/",
+              "(?i)^\\/(private\\/)?etc\\/([^/]+\\/)*(profile$|nanorc$|rc\\.|csh\\.)",
+              "(?i)^\\.?cshrc$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SQL",
+      "asset": "sql",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ddl",
+              ".udf",
+              ".hql",
+              ".viw",
+              ".prc",
+              ".cql",
+              ".db2"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(my)?sql$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SVG",
+      "asset": "svg",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".svg"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swift",
+      "asset": "swift",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".swift"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeX",
+      "asset": "tex",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".tex",
+              ".ltx",
+              ".aux",
+              ".sty",
+              ".dtx",
+              ".cls",
+              ".ins",
+              ".lbx",
+              ".mkiv",
+              ".mkvi",
+              ".mkii",
+              ".texi"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "^hyphen(ex)?\\.(cs|den|det|fr|sv|us)$/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Text",
+      "asset": "text",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".err",
+              ".rtf",
+              ".abt",
+              ".ans",
+              ".brf",
+              ".dri",
+              ".etx",
+              ".gpi",
+              ".irclog",
+              ".more",
+              ".msg",
+              ".no",
+              ".rpt",
+              ".srt",
+              ".sub",
+              ".weechatlog",
+              ".uof",
+              ".uot",
+              ".uos",
+              ".uop"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.te?xt$",
+              "(?i)\\.log$|^Terminal[-_\\s]Saved[-_\\s]Output$",
+              "\\.git[\\/\\\\]description$/",
+              "(?i)\\.i?nfo$",
+              "(?i)^(bug-report|fdl|for-release|tests)$",
+              "(?i)\\.(utxt|utf8)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TSX",
+      "asset": "tsx",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".tsx"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TypeScript",
+      "asset": "ts",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unity3D",
+      "asset": "unity3d",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".anim",
+              ".asset",
+              ".mat",
+              ".meta",
+              ".prefab",
+              ".unity",
+              ".unityproj"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnrealScript",
+      "asset": "unreal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".uc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vue",
+      "asset": "vue",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".vue"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebAssembly",
+      "asset": "wasm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".wasm"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.was?t$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Windows",
+      "asset": "windows",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".bat",
+              ".cmd",
+              ".reg"
+            ]
+          },
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(exe|com|msi)$"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

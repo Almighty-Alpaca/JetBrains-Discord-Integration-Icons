@@ -45,7 +45,7 @@ public class RepoReader
                 .collect(Collectors.toList());
     }
 
-    public static class Theme
+    public static class Theme implements Comparable<Theme>
     {
         @NotNull
         private final Path folder;
@@ -74,6 +74,17 @@ public class RepoReader
         public String getId()
         {
             return folder.getFileName().toString();
+        }
+
+        @Override
+        public int compareTo(@NotNull RepoReader.Theme that)
+        {
+            if (this.getId().equals("classic"))
+                return -1;
+            if (that.getId().equals("classic"))
+                return 1;
+            else
+                return this.getId().compareTo(that.getId());
         }
     }
 }
