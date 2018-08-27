@@ -1,7 +1,6 @@
 {
   "name": "Flat",
-  "description": "Flat modern icons",
-  "credits" : "[MrSquaare](https://github.com/MrSquaare/Icongram) for providing the icons",
+  "description": "Flat modern icons originally created by [HelloWorld017](https://github.com/HelloWorld017/fileicons-render/) for his [atom-discord](https://github.com/HelloWorld017/atom-discord) plugin.",
   "application": "482295065138692107",
   "icons": [
     {
