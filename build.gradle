@@ -1,10 +1,7 @@
 plugins {
     id 'java'
-    id 'application'
     id 'com.github.ben-manes.versions' version '0.20.0'
 }
-
-mainClassName = 'com.almightyalpaca.jetbrains.plugins.discord.uploader.Main'
 
 sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
 
@@ -29,6 +26,8 @@ dependencies {
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 
     compile group: 'org.jetbrains', name: 'annotations', version: '16.0.2'
+
+    compile group: 'com.github.depsypher', name: 'pngtastic', version: '1.5'
 }
 
 def file = file("secrets.gradle")
@@ -36,10 +35,34 @@ if (file.exists()) {
     apply from: file
 }
 
-run {
-    onlyIf { !getCustomProperty('DISCORD_TOKEN').empty }
+task uploadIcons(type : JavaExec) {
+    group = 'application'
 
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.uploader.Uploader'
     environment 'DISCORD_TOKEN': getCustomProperty('DISCORD_TOKEN')
+
+    onlyIf { !getCustomProperty('DISCORD_TOKEN').empty }
+}
+
+task generateIcons(type : JavaExec) {
+    group = 'application'
+
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconGenerator'
+
+    jvmArgs += '-Xmx1G'
+}
+
+task generateAllIcons(type : JavaExec) {
+    group = 'application'
+
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconGenerator'
+
+    jvmArgs += '-Xmx1G'
+    args += 'ForceAll'
+
 }
 
 String getCustomProperty(String name) {

@@ -1,8 +1,10 @@
 package com.almightyalpaca.jetbrains.plugins.discord.uploader;
 
+import com.almightyalpaca.jetbrains.plugins.discord.util.RepoReader;
 import okhttp3.OkHttpClient;
 import org.apache.commons.collections4.SetValuedMap;
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.jetbrains.annotations.NotNull;
 
@@ -16,14 +18,14 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("Duplicates")
-public class Main
+public class Uploader
 {
     @NotNull
     private static final String TOKEN = Objects.requireNonNull(System.getenv("DISCORD_TOKEN"));
 
     public static void main(String[] args)
     {
-        new Main().start();
+        new Uploader().start();
     }
 
     public void start()
@@ -82,6 +84,7 @@ public class Main
             Collection<Path> paths = Files.list(theme.getFolder())
                     .filter(Files::isRegularFile)
                     .filter(path -> FilenameUtils.getExtension(path.toString()).equalsIgnoreCase("png"))
+                    .filter(path -> !StringUtils.endsWithIgnoreCase(path.toString(), "_low.png"))
                     .distinct()
                     .sorted()
                     .collect(Collectors.toList());

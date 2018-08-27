@@ -1,4 +1,4 @@
-package com.almightyalpaca.jetbrains.plugins.discord.uploader;
+package com.almightyalpaca.jetbrains.plugins.discord.util;
 
 import com.google.gson.JsonParser;
 import org.apache.commons.lang3.tuple.Pair;
