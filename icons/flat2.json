@@ -263,7 +263,7 @@
     },
     {
       "name": "HTML",
-      "asset": "html",
+      "asset": "html5",
       "matcher": {
         "filename": [
           {
@@ -433,23 +433,6 @@
       }
     },
     {
-      "name": "F#",
-      "asset": "fsharp",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".fs",
-              ".fsx",
-              ".fsi"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Markdown",
       "asset": "markdown",
       "matcher": {
@@ -570,7 +553,7 @@
     },
     {
       "name": "CSS",
-      "asset": "css",
+      "asset": "css3",
       "matcher": {
         "filename": [
           {
