@@ -539,7 +539,12 @@
             "type": "String",
             "variant": "endsWith",
             "match": [
-              ".java"
+              ".java",
+			  ".jsp",
+			  ".jsf",
+			  ".jar",
+			  ".war",
+			  ".ear"
             ]
           }
         ]
