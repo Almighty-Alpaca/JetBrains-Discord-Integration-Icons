@@ -1,0 +1,4165 @@
+{
+  "name": "Material",
+  "description": "Material Icons taken from the [Material Theme for JetBrains IDEs](http://www.material-theme.com/).",
+  "application": "484820516608147457",
+  "icons": [
+    {
+      "name": "Android Studio",
+      "asset": "android-studio",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "AI"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppCode",
+      "asset": "appcode",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "OC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CLion",
+      "asset": "clion",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "CL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DataGrip",
+      "asset": "datagrip",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "DB"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoLand",
+      "asset": "goland",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "GO"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Community",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IntelliJ IDEA Ultimate",
+      "asset": "intellij-idea",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "IU"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "MPS",
+      "asset": "mps",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "MPS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhpStorm",
+      "asset": "phpstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Community",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PC"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Edu",
+      "asset": "pycharm-edu",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PE"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PyCharm Professional",
+      "asset": "pycharm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "PY"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rider",
+      "asset": "rider",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RD"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubyMine",
+      "asset": "rubymine",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "RM"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "WebStorm",
+      "asset": "webstorm",
+      "matcher": {
+        "code": [
+          {
+            "type": "String",
+            "match": [
+              "WS"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Github CODE",
+      "asset": "github",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "CODE_OF_CONDUCT.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Github CONTRIBUTING",
+      "asset": "github",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "CONTRIBUTING.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Github COMMIT",
+      "asset": "github",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "COMMIT_MESSAGE_CONVENTION.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Github TEMPLATE",
+      "asset": "github",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "TEMPLATE.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "README",
+      "asset": "readme",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "README.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ES6",
+      "asset": "angular",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".es6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Photoshop",
+      "asset": "psd",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".psd"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AspectJ",
+      "asset": "eclipse",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".aj"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Atom",
+      "asset": "atom",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".atom"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngularJS",
+      "asset": "angular",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)angular\\.(min\\.)?js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular",
+      "asset": "angular",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ng\\.html|ng\\.js|module\\.[tj]s|ng-template)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Component",
+      "asset": "angularcomponent",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.component\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Directive",
+      "asset": "angulardirective",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.directive\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Guard",
+      "asset": "angularguard",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.guard\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Service",
+      "asset": "angularservice",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.service\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Pipe",
+      "asset": "angularpipe",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.pipe\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Routing",
+      "asset": "angularrouting",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.routing\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular Resolver",
+      "asset": "angularresolver",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.resolver\\.[tj]s$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoHotKey",
+      "asset": "ahk",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ahk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Access",
+      "asset": "access",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(adn|accdb|accdr|accdt|accda|mdw|accde|mam|maq|mar|mat|maf|laccdb)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ActionScript",
+      "asset": "actionscript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".as"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Adobe Illustrator",
+      "asset": "ai",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ai"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Adobe Elements",
+      "asset": "ae",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.ae(p|t)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ada",
+      "asset": "ada",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ada"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Akka",
+      "asset": "akka",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".akka"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angular-CLI",
+      "asset": "angular",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "angular(-cli)?\\.json$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Android Manifest",
+      "asset": "android",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "AndroidManifest.xml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Android Main",
+      "asset": "android",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "MainActivity.java"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "API Blueprint",
+      "asset": "apib",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".apib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "APK",
+      "asset": "android",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".apk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Appveyor",
+      "asset": "appveyor",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "appveyor.yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ansible",
+      "asset": "ansible",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "site.yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "AppleScript",
+      "asset": "applescript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".applescript"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ASP",
+      "asset": "asp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(asp|asa|aspx|cshtml)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aurelia",
+      "asset": "aurelia",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^aurelia(file)?.js(on)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Babel",
+      "asset": "babel",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(babelrc)(.json)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bazel",
+      "asset": "bazel",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".bzl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java Bean",
+      "asset": "bean",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "Bean.java"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Behat",
+      "asset": "behat",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".feature"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blade",
+      "asset": "blade",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.blade(\\.php)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bower",
+      "asset": "bower",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^((.*\\.(bower|bowerrc))|bower\\.json)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Browserslist",
+      "asset": "browserslist",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^\\.browserslist(rc)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bundler",
+      "asset": "bundle",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Gemfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C",
+      "asset": "c",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(c|objc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cabal",
+      "asset": "cabal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cabal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cabal Project",
+      "asset": "cabal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "cabal.project"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CakePHP",
+      "asset": "cakephp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cake"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Class",
+      "asset": "class",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(class|o)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColdFusion",
+      "asset": "cf",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(cf)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CMake",
+      "asset": "cmake",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              ".cmake"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CMakelists",
+      "asset": "cmake",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "CMakeLists"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CFC",
+      "asset": "cfc",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cfc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chef Knife",
+      "asset": "chef",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "knife.rb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chef Berksfile",
+      "asset": "chef",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Berksfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CNAME",
+      "asset": "cname",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "CNAME"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clojure",
+      "asset": "clojure",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(cljs|clj|cljc|clojure)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CircleCI",
+      "asset": "circleci",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "circle.yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoffeeScript",
+      "asset": "coffeescript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".coffee"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Compass",
+      "asset": "compass",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "config.rb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Composer",
+      "asset": "composer",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "composer.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Composer Phar",
+      "asset": "composer",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "composer.phar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cordova",
+      "asset": "cordova",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              "cordova"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cucumber",
+      "asset": "cucumber",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".feature"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C++",
+      "asset": "cpp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cpp",
+              ".hpp",
+              ".cc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "C#",
+      "asset": "csharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CSS",
+      "asset": "css",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".css"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "CSV",
+      "asset": "csv",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(csv|tsv)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dart",
+      "asset": "dart",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dart"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DB",
+      "asset": "db",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(db|ddl)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLang",
+      "asset": "dlang",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".d"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Diff",
+      "asset": "diff",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(diff|patch)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Django",
+      "asset": "django",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(flake8)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Docker",
+      "asset": "docker",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Dockerfile",
+              ".extra",
+              ".dockerignore"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DockerCompose",
+      "asset": "docker",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)docker-compose.(yml|yaml)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DotNET",
+      "asset": "dotnet",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(xaml|csproj|vb)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doxygen",
+      "asset": "doxygen",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Doxyfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drupal",
+      "asset": "drupal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".drupal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dylib",
+      "asset": "dylib",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dylib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eclipse",
+      "asset": "eclipse",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".eclipse"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EditorConfig",
+      "asset": "editorconfig",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".editorconfig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emacs",
+      "asset": "emacs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".emacs"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ember CLI",
+      "asset": "ember",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ember-cli"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ember",
+      "asset": "ember",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ember.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "EJS",
+      "asset": "ejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ejs)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elm",
+      "asset": "elm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".elm"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elixir",
+      "asset": "ex",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ex|exs|elixir)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ESLint",
+      "asset": "eslint",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(eslintrc|eslintignore).*"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ErLang",
+      "asset": "erlang",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(erc|erl|erlang)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Excel",
+      "asset": "excel",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(xls|xlsx|xlm|xlt|xlsb|odx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fish",
+      "asset": "fish",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(fish|fishrc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Finder",
+      "asset": "finder",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\._*?MACOSX$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flow",
+      "asset": "flow",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(flow|flowconfig)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreeMarker",
+      "asset": "freemarker",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ftl|freemarker)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "FSharp",
+      "asset": "fsharp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(fs|fsi|fsx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GhostScript",
+      "asset": "ghostscript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".ghostscript"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Git",
+      "asset": "git",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              ".git"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gemfile",
+      "asset": "rails",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)^Gemfile(\\.lock)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Go",
+      "asset": "go",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(go|gohtml)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Godot",
+      "asset": "godot",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gd"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gradle",
+      "asset": "gradle",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".gradle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gradlew",
+      "asset": "gradle",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "gradlew"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "GraphQL",
+      "asset": "graphql",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(gql|graphql)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Graphviz",
+      "asset": "graphviz",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(dot|graphviz)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Groovy",
+      "asset": "groovy",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(gy|gdsl|groovy)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grunt",
+      "asset": "gruntfile",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "Gruntfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gulp",
+      "asset": "gulpfile",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "Gulpfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haxe",
+      "asset": "haxe",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(haxe|hx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "H",
+      "asset": "hh",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(objh|h)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hack",
+      "asset": "hack",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(hhconfig|hh)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HAML",
+      "asset": "haml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".haml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hashicorp",
+      "asset": "hcl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(hcl)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haskell",
+      "asset": "haskell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(haskell|hs)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haxe",
+      "asset": "haxe",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".haxe"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTAccess",
+      "asset": "htaccess",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(htaccess|htpasswd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "HTML",
+      "asset": "html",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(html|htm)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "IDEA",
+      "asset": "idea",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(iml|icls)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "InDesign",
+      "asset": "indesign",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(id|indl|indt|indb)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ionic",
+      "asset": "ionic",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              ".ionic.config"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java",
+      "asset": "java",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(java|jar|war)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jade/Pug",
+      "asset": "pug",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(jade|pug)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jekyll",
+      "asset": "jekyll",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "_config.yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jest",
+      "asset": "jest",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "jest.config"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jinja",
+      "asset": "jinja",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(jinja|j2|jnj)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Joomla",
+      "asset": "joomla",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".smarty"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "jQuery",
+      "asset": "jquery",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)jquery.*\\.js"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "React JS",
+      "asset": "jsx",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(jsx|tsx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSP",
+      "asset": "jsp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(jsp|jsf|jspx)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Julia",
+      "asset": "julia",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(julia|jl)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jupyter Notebook",
+      "asset": "jupyter",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ipynb)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Karma",
+      "asset": "karma",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "karma"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kotlin",
+      "asset": "kotlin",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(kt|kts|kotlin)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockout",
+      "asset": "knockout",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(knockout|ko)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Less",
+      "asset": "less",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".less"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LICENSE",
+      "asset": "license",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "startsWith",
+            "match": [
+              "LICENSE"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Liquid",
+      "asset": "liquid",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".liquid"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LISP",
+      "asset": "lisp",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lisp"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Log",
+      "asset": "log",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".log"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lua",
+      "asset": "lua",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lua"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Makefile",
+      "asset": "makefile",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Makefile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magento",
+      "asset": "magento",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "mage"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Markup",
+      "asset": "markup",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(shtml|dhtml|cshtml|dtd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Markdown",
+      "asset": "markdown",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(md|markdown|mson)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manpage",
+      "asset": "manpage",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(man|[1-8])$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mathematica",
+      "asset": "mathematica",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(nb|ma|mb|cdf)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Matlab",
+      "asset": "matlab",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".matlab"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maven",
+      "asset": "maven",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "pom.xml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maya",
+      "asset": "maya",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(maya|mel)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mercurial",
+      "asset": "mercurial",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".hg"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meteor",
+      "asset": "meteor",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".meteor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mocha",
+      "asset": "mocha",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "mocha.opts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mongodb",
+      "asset": "mongodb",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(mongodb|bson)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mustache",
+      "asset": "mustache",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(mustache|handlebars|hbs|hamlbars)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nginx",
+      "asset": "nginx",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(nginx|conf)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nib",
+      "asset": "nib",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(nib)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nodemon",
+      "asset": "nodemon",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".nodemon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Note",
+      "asset": "note",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(scratch|note)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Node",
+      "asset": "nodejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(server|app)\\.js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NPM",
+      "asset": "npm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "package(-lock)?\\.json$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NPMFiles",
+      "asset": "npm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(npmignore|npmrc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NPM",
+      "asset": "npm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "package(-lock)?\\.json$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NVM",
+      "asset": "nodejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".nvmrc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NSIS",
+      "asset": "nsis",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".nsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nuclide",
+      "asset": "nuclide",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".nuclide"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "NuGet",
+      "asset": "nuget",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".nuspec"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OCaml",
+      "asset": "ocaml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ocaml|ml|mli|ocamllex|ocamlyacc)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OneNote",
+      "asset": "onenote",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".onenote"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenOffice",
+      "asset": "openoffice",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(odt|odf|ods)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Objective-C",
+      "asset": "objc",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.mm?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pascal",
+      "asset": "pascal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(pas|pascal)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Patch",
+      "asset": "patch",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(patch|meld)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PDF",
+      "asset": "pdf",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pdf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perl",
+      "asset": "perl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(perl|pl|pm)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perforce",
+      "asset": "p4",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "p4ignore"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PHP",
+      "asset": "php",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(php|phps)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phalcon",
+      "asset": "phalcon",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(volt)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PHPUnit",
+      "asset": "phpunit",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(t|T)est\\.php$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PHTML",
+      "asset": "phtml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".phtml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Play",
+      "asset": "play",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "play"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PList",
+      "asset": "plist",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".plist"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PostCSS",
+      "asset": "postcss",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(pcss|postcss)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PostCSS Config",
+      "asset": "postcss",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "^(\\.postcssrc|postcss\\.config)\\.js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Polymer",
+      "asset": "polymer",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "polymer.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Procfile",
+      "asset": "procfile",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Procfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prettier",
+      "asset": "prettier",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.prettier.*$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Photoshop",
+      "asset": "psd",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(psb|psd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Premiere",
+      "asset": "premiere",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(prel|prproj|psq)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Protractor",
+      "asset": "protractor",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "protractor\\.js(on)?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Puppet",
+      "asset": "puppet",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(puppet|pp|epp)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Powerpoint",
+      "asset": "powerpoint",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ppt|pptx|pps|ppsx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerShell",
+      "asset": "powershell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(powershell|ps1|cmd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PureScript",
+      "asset": "purescript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(purescript|purs)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Python",
+      "asset": "python",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(py|python)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "R",
+      "asset": "r",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".r"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ERB",
+      "asset": "erb",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(erb|ru)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rails",
+      "asset": "rails",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(rails|rake)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReasonML",
+      "asset": "reason",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.rei?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RDoc",
+      "asset": "rdoc",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(rdoc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "React",
+      "asset": "react",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".react-cli"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redis",
+      "asset": "redis",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)redis.*$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Restructured",
+      "asset": "rst",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rst"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Riot",
+      "asset": "riot",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".riot"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Robot",
+      "asset": "robot",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(robot)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rollup",
+      "asset": "rollup",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)rollup.*$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RSpec",
+      "asset": "rspec",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rspec"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "asset": "ruby",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rust",
+      "asset": "rust",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(rs|rust)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "RVM",
+      "asset": "ruby",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".rvmrc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SASS",
+      "asset": "sass",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".sass"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SBT",
+      "asset": "sbt",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.sbt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scala",
+      "asset": "scala",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".scala"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SCSS",
+      "asset": "sass",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".scss"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Settings",
+      "asset": "settings",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".settings"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shell",
+      "asset": "shell",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(sh|zsh|fish|fishrc|zshrc|bashrc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sketch",
+      "asset": "sketch",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.sketch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slim",
+      "asset": "slim",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".slim"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spring",
+      "asset": "spring",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".spring"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Properties",
+      "asset": "source",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".properties"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stylelint",
+      "asset": "stylelint",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".stylelintrc"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stylus",
+      "asset": "stylus",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".styl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stata",
+      "asset": "stata",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".stata"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SQL",
+      "asset": "sql",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(sql|pgsql|mysql)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SQLite",
+      "asset": "sqlite",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.sqlite3?$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sublime",
+      "asset": "sublime",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".sublime"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SVG",
+      "asset": "svg",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".svg"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "SVN",
+      "asset": "svn",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".svn"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swagger",
+      "asset": "swagger",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(.*\\.(?:swagger|swag|apib))|(\\.?(swagger|api)\\.(yml|yaml|json))$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swift",
+      "asset": "swift",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".swift"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swig",
+      "asset": "swig",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".swig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Symfony",
+      "asset": "symfony",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              "symfony"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TCL",
+      "asset": "tcl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".tcl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaTeX",
+      "asset": "tex",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".tex"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tern",
+      "asset": "tern",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.tern-(config|project)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java Test",
+      "asset": "testjava",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(t|T)est\\.java$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JS Test",
+      "asset": "testjs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(test|spec)\\.js$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Python Test",
+      "asset": "testpy",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(test|spec)\\.py$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruby Test",
+      "asset": "testruby",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(test|spec)\\.rb$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TS Test",
+      "asset": "testts",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(test|spec)\\.ts$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Textile",
+      "asset": "textile",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".textile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Textmate",
+      "asset": "textmate",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(tmPreferences|tmTheme)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tomcat",
+      "asset": "tomcat",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              "tomcat"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Travis",
+      "asset": "travis",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              ".travis.yml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Typings",
+      "asset": "typings",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              "typings.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TODO",
+      "asset": "todo",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "TODO"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twig",
+      "asset": "twig",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".twig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TypeScript",
+      "asset": "typeScript",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ts|tsx|tslint)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unreal",
+      "asset": "unreal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(u|unr|utx|umx|uax|ukx|uz|upkg|uc|upl|obj|asc|lwo)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vagrant",
+      "asset": "vagrant",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "Vagrantfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "VHDL",
+      "asset": "vhdl",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".vhdl"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vim",
+      "asset": "vim",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(vim|viml|vimrc|gvimrc)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visio",
+      "asset": "visio",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(visio)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visual Studio",
+      "asset": "vs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(vscode|vssettings).*"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vue",
+      "asset": "vue",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(vue|vuex)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Webpack",
+      "asset": "webpack",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "webpack\\.(common|config|dev|prod)\\.(js|es|es6|coffee)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Word",
+      "asset": "word",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(doc|docx|docm|docxml|dotm|dotx|wri|odt|odtx)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Windows",
+      "asset": "windows",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(bat|exe|dos|ms)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xamarin",
+      "asset": "xamarin",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.xamarin.*$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "XCode",
+      "asset": "appstore",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".xcodeproj"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "XCode Playground",
+      "asset": "appstore",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".xcplayground"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "XCode Workspace",
+      "asset": "appstore",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".xcworkspacedata"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storyboard",
+      "asset": "appstore",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.storyboard"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yarn",
+      "asset": "yarn",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(.*yarn(\\.lock|rc)$|.*\\.yarnclean$)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Preferences",
+      "asset": "preferences",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ini|config|env|cfg)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Binary",
+      "asset": "binary",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "^[^.]+$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Font",
+      "asset": "font",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|afm|eot|woff2?)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lockfiles",
+      "asset": "lock",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".lock"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "XML",
+      "asset": "xml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(xml|xhtml|fxml|jrxml|jnlp|pom|rng|tld|wsdl|xsd|xsl|xslt|xul)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "YAML",
+      "asset": "yaml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(yml|yaml|info)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Archive",
+      "asset": "archive",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(7z|7zip|gzip|zip|rar|tar|gz|pzip|saz|tgz)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Audio",
+      "asset": "audio",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(mp3|mp4|aac|aiff|au|flac|m4a|mpc|mp+|mpp|oga|opus|ra|rm|wav|wma|snd|mid|cda)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Video",
+      "asset": "video",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(avi|mp4|mpg|mpeg|mov|mkv|h264|webm|wmv|ogv|ogg|3gp|m4v|3gpp|ogm|dvd)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Text",
+      "asset": "text",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(txt|rtf)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Javascript Minified",
+      "asset": "jsmin",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.min\\.(js|es6|es)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Javascript",
+      "asset": "js",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(js|es6|es)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "JSON",
+      "asset": "json",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(json|cson)$"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
