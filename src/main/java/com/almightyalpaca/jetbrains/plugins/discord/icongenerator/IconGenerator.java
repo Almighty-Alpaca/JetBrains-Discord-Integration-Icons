@@ -71,7 +71,7 @@ public class IconGenerator
                         String name = FilenameUtils.getBaseName(path.getFileName().toString());
                         Path newPath = path.resolveSibling(name + "_low.png");
 
-                        if (mode == Mode.MISSING && Files.exists(path))
+                        if (mode == Mode.MISSING && Files.exists(newPath))
                         {
                             System.out.println("Skipping " + theme.getId() + "/" + path.getFileName());
                             return;
