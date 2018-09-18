@@ -523,9 +523,24 @@
             "variant": "endsWith",
             "match": [
               ".java",
+			  ".jar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java Server Pages",
+      "asset": "java",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
 			  ".jsp",
+			  ".jsx",
 			  ".jsf",
-			  ".jar",
 			  ".war",
 			  ".ear"
             ]
