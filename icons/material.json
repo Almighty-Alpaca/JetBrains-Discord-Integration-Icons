@@ -300,21 +300,6 @@
       }
     },
     {
-      "name": "Photoshop",
-      "asset": "psd",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".psd"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "AspectJ",
       "asset": "eclipse",
       "matcher": {
@@ -374,7 +359,7 @@
     },
     {
       "name": "Angular Component",
-      "asset": "angularcomponent",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -388,7 +373,7 @@
     },
     {
       "name": "Angular Directive",
-      "asset": "angulardirective",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -402,7 +387,7 @@
     },
     {
       "name": "Angular Guard",
-      "asset": "angularguard",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -416,7 +401,7 @@
     },
     {
       "name": "Angular Service",
-      "asset": "angularservice",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -430,7 +415,7 @@
     },
     {
       "name": "Angular Pipe",
-      "asset": "angularpipe",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -444,7 +429,7 @@
     },
     {
       "name": "Angular Routing",
-      "asset": "angularrouting",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -458,7 +443,7 @@
     },
     {
       "name": "Angular Resolver",
-      "asset": "angularresolver",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -486,20 +471,6 @@
       }
     },
     {
-      "name": "Access",
-      "asset": "access",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(adn|accdb|accdr|accdt|accda|mdw|accde|mam|maq|mar|mat|maf|laccdb)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "ActionScript",
       "asset": "actionscript",
       "matcher": {
@@ -509,35 +480,6 @@
             "variant": "endsWith",
             "match": [
               ".as"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Adobe Illustrator",
-      "asset": "ai",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".ai"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Adobe Elements",
-      "asset": "ae",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.ae(p|t)$"
             ]
           }
         ]
@@ -675,7 +617,7 @@
     },
     {
       "name": "AppleScript",
-      "asset": "applescript",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
@@ -718,7 +660,7 @@
     },
     {
       "name": "Babel",
-      "asset": "babel",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -747,7 +689,7 @@
     },
     {
       "name": "Java Bean",
-      "asset": "bean",
+      "asset": "java",
       "matcher": {
         "filename": [
           {
@@ -761,23 +703,8 @@
       }
     },
     {
-      "name": "Behat",
-      "asset": "behat",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".feature"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Blade",
-      "asset": "blade",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -819,7 +746,7 @@
     },
     {
       "name": "Bundler",
-      "asset": "bundle",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
@@ -832,7 +759,7 @@
       }
     },
     {
-      "name": "C",
+      "name": "C\u200b",
       "asset": "c",
       "matcher": {
         "filename": [
@@ -847,7 +774,7 @@
     },
     {
       "name": "Cabal",
-      "asset": "cabal",
+      "asset": "haskell",
       "matcher": {
         "filename": [
           {
@@ -862,7 +789,7 @@
     },
     {
       "name": "Cabal Project",
-      "asset": "cabal",
+      "asset": "haskell",
       "matcher": {
         "filename": [
           {
@@ -876,7 +803,7 @@
     },
     {
       "name": "CakePHP",
-      "asset": "cakephp",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -891,27 +818,13 @@
     },
     {
       "name": "Class",
-      "asset": "class",
+      "asset": "binary",
       "matcher": {
         "filename": [
           {
             "type": "RegEx",
             "match": [
               "(?i)\\.(class|o)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "ColdFusion",
-      "asset": "cf",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(cf)$"
             ]
           }
         ]
@@ -947,21 +860,6 @@
       }
     },
     {
-      "name": "CFC",
-      "asset": "cfc",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".cfc"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Chef Knife",
       "asset": "chef",
       "matcher": {
@@ -991,7 +889,7 @@
     },
     {
       "name": "CNAME",
-      "asset": "cname",
+      "asset": "github",
       "matcher": {
         "filename": [
           {
@@ -1049,7 +947,7 @@
     },
     {
       "name": "Compass",
-      "asset": "compass",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
@@ -1063,7 +961,7 @@
     },
     {
       "name": "Composer",
-      "asset": "composer",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -1078,7 +976,7 @@
     },
     {
       "name": "Composer Phar",
-      "asset": "composer",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -1242,7 +1140,7 @@
     },
     {
       "name": "Django",
-      "asset": "django",
+      "asset": "python",
       "matcher": {
         "filename": [
           {
@@ -1329,7 +1227,7 @@
     },
     {
       "name": "Dylib",
-      "asset": "dylib",
+      "asset": "binary",
       "matcher": {
         "filename": [
           {
@@ -1337,6 +1235,21 @@
             "variant": "endsWith",
             "match": [
               ".dylib"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "DLL",
+      "asset": "binary",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".dll"
             ]
           }
         ]
@@ -1419,7 +1332,7 @@
     },
     {
       "name": "EJS",
-      "asset": "ejs",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -1462,7 +1375,7 @@
     },
     {
       "name": "ESLint",
-      "asset": "eslint",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -1490,7 +1403,7 @@
     },
     {
       "name": "Excel",
-      "asset": "excel",
+      "asset": "windows",
       "matcher": {
         "filename": [
           {
@@ -1504,7 +1417,7 @@
     },
     {
       "name": "Fish",
-      "asset": "fish",
+      "asset": "shell",
       "matcher": {
         "filename": [
           {
@@ -1518,7 +1431,7 @@
     },
     {
       "name": "Finder",
-      "asset": "finder",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
@@ -1654,7 +1567,8 @@
             "type": "String",
             "variant": "endsWith",
             "match": [
-              ".gradle"
+              ".gradle",
+              ".gradle.kts"
             ]
           }
         ]
@@ -1748,20 +1662,6 @@
       }
     },
     {
-      "name": "Haxe",
-      "asset": "haxe",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(haxe|hx)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "H",
       "asset": "hh",
       "matcher": {
@@ -1841,7 +1741,8 @@
             "type": "String",
             "variant": "endsWith",
             "match": [
-              ".haxe"
+              ".haxe",
+			  ".hx"
             ]
           }
         ]
@@ -1849,7 +1750,7 @@
     },
     {
       "name": "HTAccess",
-      "asset": "htaccess",
+      "asset": "apache",
       "matcher": {
         "filename": [
           {
@@ -1890,20 +1791,6 @@
       }
     },
     {
-      "name": "InDesign",
-      "asset": "indesign",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(id|indl|indt|indb)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Ionic",
       "asset": "ionic",
       "matcher": {
@@ -1923,9 +1810,30 @@
       "matcher": {
         "filename": [
           {
-            "type": "RegEx",
+            "type": "String",
+            "variant": "endsWith",
             "match": [
-              "(?i)\\.(java|jar|war)$"
+              ".java",
+			  ".jar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Java Server Pages",
+      "asset": "java",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+			  ".jsp",
+			  ".jsx",
+			  ".jsf",
+			  ".war",
+			  ".ear"
             ]
           }
         ]
@@ -2020,27 +1928,13 @@
     },
     {
       "name": "React JS",
-      "asset": "jsx",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
             "type": "RegEx",
             "match": [
               "(?i)\\.(jsx|tsx)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "JSP",
-      "asset": "jsp",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(jsp|jsf|jspx)"
             ]
           }
         ]
@@ -2062,7 +1956,7 @@
     },
     {
       "name": "Jupyter Notebook",
-      "asset": "jupyter",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2080,10 +1974,9 @@
       "matcher": {
         "filename": [
           {
-            "type": "String",
-            "variant": "startsWith",
+            "type": "RegEx",
             "match": [
-              "karma"
+              "(?i)karma\\.conf\\.(js|coffee|ts)$"
             ]
           }
         ]
@@ -2179,7 +2072,7 @@
     },
     {
       "name": "Log",
-      "asset": "log",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2223,14 +2116,14 @@
     },
     {
       "name": "Magento",
-      "asset": "magento",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
             "type": "String",
             "variant": "endsWith",
             "match": [
-              "mage"
+              "magento"
             ]
           }
         ]
@@ -2352,7 +2245,7 @@
     },
     {
       "name": "Meteor",
-      "asset": "meteor",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -2382,7 +2275,7 @@
     },
     {
       "name": "Mongodb",
-      "asset": "mongodb",
+      "asset": "db",
       "matcher": {
         "filename": [
           {
@@ -2424,13 +2317,14 @@
     },
     {
       "name": "Nib",
-      "asset": "nib",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
-            "type": "RegEx",
+            "type": "String",
+            "variant": "endsWith",
             "match": [
-              "(?i)\\.(nib)$"
+              ".nib"
             ]
           }
         ]
@@ -2438,7 +2332,7 @@
     },
     {
       "name": "Nodemon",
-      "asset": "nodemon",
+      "asset": "nodejs",
       "matcher": {
         "filename": [
           {
@@ -2453,7 +2347,7 @@
     },
     {
       "name": "Note",
-      "asset": "note",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2537,36 +2431,6 @@
       }
     },
     {
-      "name": "NSIS",
-      "asset": "nsis",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "contains",
-            "match": [
-              ".nsis"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Nuclide",
-      "asset": "nuclide",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".nuclide"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "NuGet",
       "asset": "nuget",
       "matcher": {
@@ -2597,7 +2461,7 @@
     },
     {
       "name": "OneNote",
-      "asset": "onenote",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2612,7 +2476,7 @@
     },
     {
       "name": "OpenOffice",
-      "asset": "openoffice",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2658,9 +2522,11 @@
       "matcher": {
         "filename": [
           {
-            "type": "RegEx",
+            "type": "String",
+            "variant": "endsWith",
             "match": [
-              "(?i)\\.(patch|meld)$"
+              ".patch",
+			  ".meld"
             ]
           }
         ]
@@ -2696,21 +2562,6 @@
       }
     },
     {
-      "name": "Perforce",
-      "asset": "p4",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              "p4ignore"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "PHP",
       "asset": "php",
       "matcher": {
@@ -2726,7 +2577,7 @@
     },
     {
       "name": "Phalcon",
-      "asset": "phalcon",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -2740,7 +2591,7 @@
     },
     {
       "name": "PHPUnit",
-      "asset": "phpunit",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -2754,7 +2605,7 @@
     },
     {
       "name": "PHTML",
-      "asset": "phtml",
+      "asset": "php",
       "matcher": {
         "filename": [
           {
@@ -2769,14 +2620,14 @@
     },
     {
       "name": "Play",
-      "asset": "play",
+      "asset": "java",
       "matcher": {
         "filename": [
           {
             "type": "String",
             "variant": "endsWith",
             "match": [
-              "play"
+              ".play"
             ]
           }
         ]
@@ -2827,7 +2678,7 @@
     },
     {
       "name": "Polymer",
-      "asset": "polymer",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -2882,22 +2733,8 @@
       }
     },
     {
-      "name": "Premiere",
-      "asset": "premiere",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(prel|prproj|psq)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Protractor",
-      "asset": "protractor",
+      "asset": "angular",
       "matcher": {
         "filename": [
           {
@@ -2925,7 +2762,7 @@
     },
     {
       "name": "Powerpoint",
-      "asset": "powerpoint",
+      "asset": "windows",
       "matcher": {
         "filename": [
           {
@@ -3010,7 +2847,7 @@
     },
     {
       "name": "Rails",
-      "asset": "rails",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
@@ -3028,9 +2865,11 @@
       "matcher": {
         "filename": [
           {
-            "type": "RegEx",
+            "type": "String",
+            "variant": "endsWith",
             "match": [
-              "(?i)\\.rei?"
+              ".re",
+              ".rei"
             ]
           }
         ]
@@ -3038,28 +2877,14 @@
     },
     {
       "name": "RDoc",
-      "asset": "rdoc",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)(rdoc)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "React",
-      "asset": "react",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
             "type": "String",
             "variant": "endsWith",
             "match": [
-              ".react-cli"
+              ".rdoc"
             ]
           }
         ]
@@ -3110,22 +2935,8 @@
       }
     },
     {
-      "name": "Robot",
-      "asset": "robot",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)(robot)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Rollup",
-      "asset": "rollup",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -3139,7 +2950,7 @@
     },
     {
       "name": "RSpec",
-      "asset": "rspec",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
@@ -3242,7 +3053,7 @@
     },
     {
       "name": "SCSS",
-      "asset": "sass",
+      "asset": "scss",
       "matcher": {
         "filename": [
           {
@@ -3250,21 +3061,6 @@
             "variant": "endsWith",
             "match": [
               ".scss"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Settings",
-      "asset": "settings",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".settings"
             ]
           }
         ]
@@ -3279,20 +3075,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(sh|zsh|fish|fishrc|zshrc|bashrc)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Sketch",
-      "asset": "sketch",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.sketch"
             ]
           }
         ]
@@ -3315,7 +3097,7 @@
     },
     {
       "name": "Spring",
-      "asset": "spring",
+      "asset": "java",
       "matcher": {
         "filename": [
           {
@@ -3330,7 +3112,7 @@
     },
     {
       "name": "Properties",
-      "asset": "source",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -3345,7 +3127,7 @@
     },
     {
       "name": "Stylelint",
-      "asset": "stylelint",
+      "asset": "css",
       "matcher": {
         "filename": [
           {
@@ -3374,23 +3156,8 @@
       }
     },
     {
-      "name": "Stata",
-      "asset": "stata",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".stata"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "SQL",
-      "asset": "sql",
+      "asset": "db",
       "matcher": {
         "filename": [
           {
@@ -3404,7 +3171,7 @@
     },
     {
       "name": "SQLite",
-      "asset": "sqlite",
+      "asset": "db",
       "matcher": {
         "filename": [
           {
@@ -3418,7 +3185,7 @@
     },
     {
       "name": "Sublime",
-      "asset": "sublime",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -3433,7 +3200,7 @@
     },
     {
       "name": "SVG",
-      "asset": "svg",
+      "asset": "image",
       "matcher": {
         "filename": [
           {
@@ -3491,21 +3258,6 @@
       }
     },
     {
-      "name": "Swig",
-      "asset": "swig",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".swig"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Symfony",
       "asset": "symfony",
       "matcher": {
@@ -3515,21 +3267,6 @@
             "variant": "contains",
             "match": [
               "symfony"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "TCL",
-      "asset": "tcl",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".tcl"
             ]
           }
         ]
@@ -3566,13 +3303,13 @@
     },
     {
       "name": "Java Test",
-      "asset": "testjava",
+      "asset": "java",
       "matcher": {
         "filename": [
           {
             "type": "RegEx",
             "match": [
-              "(?i)\\.(t|T)est\\.java$"
+              "(?i)\\.Test\\.java$"
             ]
           }
         ]
@@ -3580,7 +3317,7 @@
     },
     {
       "name": "JS Test",
-      "asset": "testjs",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -3594,7 +3331,7 @@
     },
     {
       "name": "Python Test",
-      "asset": "testpy",
+      "asset": "python",
       "matcher": {
         "filename": [
           {
@@ -3608,7 +3345,7 @@
     },
     {
       "name": "Ruby Test",
-      "asset": "testruby",
+      "asset": "ruby",
       "matcher": {
         "filename": [
           {
@@ -3622,7 +3359,7 @@
     },
     {
       "name": "TS Test",
-      "asset": "testts",
+      "asset": "typeScript",
       "matcher": {
         "filename": [
           {
@@ -3694,7 +3431,7 @@
     },
     {
       "name": "Typings",
-      "asset": "typings",
+      "asset": "typeScript",
       "matcher": {
         "filename": [
           {
@@ -3808,20 +3545,6 @@
       }
     },
     {
-      "name": "Visio",
-      "asset": "visio",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(visio)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Visual Studio",
       "asset": "vs",
       "matcher": {
@@ -3851,7 +3574,7 @@
     },
     {
       "name": "Webpack",
-      "asset": "webpack",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -3865,7 +3588,7 @@
     },
     {
       "name": "Word",
-      "asset": "word",
+      "asset": "windows",
       "matcher": {
         "filename": [
           {
@@ -3878,14 +3601,14 @@
       }
     },
     {
-      "name": "Windows",
-      "asset": "windows",
+      "name": "Batch",
+      "asset": "shell",
       "matcher": {
         "filename": [
           {
             "type": "RegEx",
             "match": [
-              "(?i)\\.(bat|exe|dos|ms)$"
+              "(?i)\\.(bat|cmd|btm)$"
             ]
           }
         ]
@@ -3893,7 +3616,7 @@
     },
     {
       "name": "Xamarin",
-      "asset": "xamarin",
+      "asset": "vs",
       "matcher": {
         "filename": [
           {
@@ -3922,7 +3645,7 @@
     },
     {
       "name": "XCode Playground",
-      "asset": "appstore",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
@@ -3966,7 +3689,7 @@
     },
     {
       "name": "Yarn",
-      "asset": "yarn",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -3980,27 +3703,13 @@
     },
     {
       "name": "Preferences",
-      "asset": "preferences",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
             "type": "RegEx",
             "match": [
-              "(?i)\\.(ini|config|env|cfg)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Binary",
-      "asset": "binary",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "^[^.]+$"
+              "(?i)\\.(ini|config|env|cfg|settings)$"
             ]
           }
         ]
@@ -4015,21 +3724,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(ttf|ttc|pfb|pfm|otf|dfont|pfa|afm|eot|woff2?)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lockfiles",
-      "asset": "lock",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".lock"
             ]
           }
         ]
@@ -4121,7 +3815,7 @@
     },
     {
       "name": "Javascript Minified",
-      "asset": "jsmin",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -4156,6 +3850,20 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(json|cson)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ada",
+      "asset": "ada",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(ada|adb|ads)$"
             ]
           }
         ]
