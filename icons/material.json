@@ -750,9 +750,9 @@
       "matcher": {
         "filename": [
           {
-            "type": "String",
+            "type": "RegEx",
             "match": [
-              "Gemfile"
+              "(?i)^Gemfile(\\.lock)?$"
             ]
           }
         ]
@@ -1403,7 +1403,7 @@
     },
     {
       "name": "Excel",
-      "asset": "windows",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -1510,20 +1510,6 @@
             "variant": "startsWith",
             "match": [
               ".git"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Gemfile",
-      "asset": "rails",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)^Gemfile(\\.lock)?$"
             ]
           }
         ]
@@ -1998,7 +1984,7 @@
     },
     {
       "name": "Knockout",
-      "asset": "knockout",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -2027,7 +2013,7 @@
     },
     {
       "name": "LICENSE",
-      "asset": "license",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2159,7 +2145,7 @@
     },
     {
       "name": "Manpage",
-      "asset": "manpage",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2719,20 +2705,6 @@
       }
     },
     {
-      "name": "Photoshop",
-      "asset": "psd",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(psb|psd)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Protractor",
       "asset": "angular",
       "matcher": {
@@ -2762,7 +2734,7 @@
     },
     {
       "name": "Powerpoint",
-      "asset": "windows",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2892,7 +2864,7 @@
     },
     {
       "name": "Redis",
-      "asset": "redis",
+      "asset": "db",
       "matcher": {
         "filename": [
           {
@@ -3446,7 +3418,7 @@
     },
     {
       "name": "TODO",
-      "asset": "todo",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -3588,7 +3560,7 @@
     },
     {
       "name": "Word",
-      "asset": "windows",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -3630,7 +3602,7 @@
     },
     {
       "name": "XCode",
-      "asset": "appstore",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
@@ -3660,7 +3632,7 @@
     },
     {
       "name": "XCode Workspace",
-      "asset": "appstore",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
@@ -3675,7 +3647,7 @@
     },
     {
       "name": "Storyboard",
-      "asset": "appstore",
+      "asset": "apple",
       "matcher": {
         "filename": [
           {
