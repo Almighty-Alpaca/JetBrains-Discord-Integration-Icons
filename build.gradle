@@ -30,12 +30,12 @@ dependencies {
     compile group: 'com.github.depsypher', name: 'pngtastic', version: '1.5'
 }
 
-def file = file("secrets.gradle")
-if (file.exists()) {
-    apply from: file
+def secrets = file("secrets.gradle")
+if (secrets.exists()) {
+    apply from: secrets
 }
 
-task uploadIcons(type : JavaExec) {
+task uploadIcons(type: JavaExec) {
     group = 'application'
 
     classpath = sourceSets.main.runtimeClasspath
@@ -45,7 +45,7 @@ task uploadIcons(type : JavaExec) {
     onlyIf { !getCustomProperty('DISCORD_TOKEN').empty }
 }
 
-task generateIcons(type : JavaExec) {
+task generateMissingIcons(type: JavaExec) {
     group = 'application'
 
     classpath = sourceSets.main.runtimeClasspath
@@ -54,7 +54,7 @@ task generateIcons(type : JavaExec) {
     jvmArgs += '-Xmx1G'
 }
 
-task generateAllIcons(type : JavaExec) {
+task regenerateIcons(type: JavaExec) {
     group = 'application'
 
     classpath = sourceSets.main.runtimeClasspath
@@ -62,7 +62,24 @@ task generateAllIcons(type : JavaExec) {
 
     jvmArgs += '-Xmx1G'
     args += 'ForceAll'
+}
 
+task clearIcons(type: JavaExec) {
+    group = 'application'
+
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconClearer'
+
+    jvmArgs += '-Xmx1G'
+}
+
+task reportUnusedIcons(type: JavaExec) {
+    group = 'application'
+
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.unusedicons.UnusedIconReporter'
+
+    jvmArgs += '-Xmx1G'
 }
 
 String getCustomProperty(String name) {
