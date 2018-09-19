@@ -1,4 +1,4 @@
-package com.almightyalpaca.jetbrains.plugins.discord.unusedicons;
+package com.almightyalpaca.jetbrains.plugins.discord.icons;
 
 import com.almightyalpaca.jetbrains.plugins.discord.util.RepoReader;
 import com.google.gson.JsonElement;

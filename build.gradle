@@ -77,7 +77,16 @@ task reportUnusedIcons(type: JavaExec) {
     group = 'application'
 
     classpath = sourceSets.main.runtimeClasspath
-    main = 'com.almightyalpaca.jetbrains.plugins.discord.unusedicons.UnusedIconReporter'
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.icons.UnusedIconReporter'
+
+    jvmArgs += '-Xmx1G'
+}
+
+task reportMissingIcons(type: JavaExec) {
+    group = 'application'
+
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.almightyalpaca.jetbrains.plugins.discord.icons.MissingIconReporter'
 
     jvmArgs += '-Xmx1G'
 }
