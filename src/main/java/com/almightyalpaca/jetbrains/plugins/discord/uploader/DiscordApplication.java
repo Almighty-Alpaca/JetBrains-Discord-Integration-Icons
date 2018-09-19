@@ -79,20 +79,26 @@ public class DiscordApplication
                 .header("user-agent", "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3472.3 Safari/537.36")
                 .build();
 
-        this.client.newCall(request).execute().close();
+        try (Response response = this.client.newCall(request).execute())
+        {
+            System.out.println("Response: " + response.code() + " " + response.message());
+        }
     }
 
     public void deleteAsset(@NotNull String assetId) throws IOException
     {
         Objects.requireNonNull(assetId, "assetId");
 
-        Request deleteRequest = new Request.Builder()
+        Request request = new Request.Builder()
                 .url("https://discordapp.com/api/oauth2/applications/" + this.id + "/assets/" + assetId)
                 .delete()
                 .header("authorization", token)
                 .header("user-agent", "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3472.3 Safari/537.36")
                 .build();
 
-        this.client.newCall(deleteRequest).execute().close();
+        try (Response response = this.client.newCall(request).execute())
+        {
+            System.out.println("Response: " + response.code() + " " + response.message());
+        }
     }
 }

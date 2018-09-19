@@ -315,7 +315,7 @@
     },
     {
       "name": "AspectJ",
-      "asset": "eclipse",
+      "asset": "java",
       "matcher": {
         "filename": [
           {
@@ -1240,21 +1240,6 @@
       }
     },
     {
-      "name": "Eclipse",
-      "asset": "eclipse",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "contains",
-            "match": [
-              ".eclipse"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "EditorConfig",
       "asset": "editorconfig",
       "matcher": {
@@ -1740,20 +1725,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(html|htm)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "IDEA",
-      "asset": "idea",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(iml|icls)$"
             ]
           }
         ]
