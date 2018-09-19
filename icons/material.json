@@ -272,13 +272,27 @@
     },
     {
       "name": "README",
-      "asset": "readme",
+      "asset": "markup",
       "matcher": {
         "filename": [
           {
             "type": "String",
             "match": [
               "README.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "README",
+      "asset": "rst",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "match": [
+              "README.rst"
             ]
           }
         ]
@@ -456,21 +470,6 @@
       }
     },
     {
-      "name": "AutoHotKey",
-      "asset": "ahk",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".ahk"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "ActionScript",
       "asset": "actionscript",
       "matcher": {
@@ -495,21 +494,6 @@
             "variant": "endsWith",
             "match": [
               ".ada"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Akka",
-      "asset": "akka",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".akka"
             ]
           }
         ]
@@ -732,7 +716,7 @@
     },
     {
       "name": "Browserslist",
-      "asset": "browserslist",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -1126,7 +1110,7 @@
     },
     {
       "name": "Diff",
-      "asset": "diff",
+      "asset": "git",
       "matcher": {
         "filename": [
           {
@@ -1287,7 +1271,7 @@
     },
     {
       "name": "Emacs",
-      "asset": "emacs",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -1634,14 +1618,13 @@
     },
     {
       "name": "Gulp",
-      "asset": "gulpfile",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
             "type": "String",
-            "variant": "startsWith",
             "match": [
-              "Gulpfile"
+              "gulpfile.js"
             ]
           }
         ]
@@ -1677,7 +1660,7 @@
     },
     {
       "name": "HAML",
-      "asset": "haml",
+      "asset": "html",
       "matcher": {
         "filename": [
           {
@@ -1856,7 +1839,7 @@
     },
     {
       "name": "Jest",
-      "asset": "jest",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -1900,7 +1883,7 @@
     },
     {
       "name": "jQuery",
-      "asset": "jquery",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -2201,20 +2184,6 @@
       }
     },
     {
-      "name": "Maya",
-      "asset": "maya",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(maya|mel)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Mercurial",
       "asset": "mercurial",
       "matcher": {
@@ -2246,7 +2215,7 @@
     },
     {
       "name": "Mocha",
-      "asset": "mocha",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -2289,7 +2258,7 @@
     },
     {
       "name": "nginx",
-      "asset": "nginx",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -2504,7 +2473,7 @@
     },
     {
       "name": "Patch",
-      "asset": "patch",
+      "asset": "git",
       "matcher": {
         "filename": [
           {
@@ -3246,7 +3215,7 @@
     },
     {
       "name": "LaTeX",
-      "asset": "tex",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -3261,7 +3230,7 @@
     },
     {
       "name": "Tern",
-      "asset": "tern",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -3331,7 +3300,7 @@
     },
     {
       "name": "TS Test",
-      "asset": "typeScript",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -3403,7 +3372,7 @@
     },
     {
       "name": "Typings",
-      "asset": "typeScript",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -3447,7 +3416,7 @@
     },
     {
       "name": "TypeScript",
-      "asset": "typeScript",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -3504,7 +3473,7 @@
     },
     {
       "name": "Vim",
-      "asset": "vim",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -3518,7 +3487,7 @@
     },
     {
       "name": "Visual Studio",
-      "asset": "vs",
+      "asset": "config",
       "matcher": {
         "filename": [
           {
@@ -3581,20 +3550,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(bat|cmd|btm)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Xamarin",
-      "asset": "vs",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.xamarin.*$"
             ]
           }
         ]
