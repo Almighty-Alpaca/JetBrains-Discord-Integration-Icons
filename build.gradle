@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'com.github.ben-manes.versions' version '0.20.0'
+    id 'com.palantir.git-version' version '0.11.0'
 }
 
 sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
@@ -36,7 +37,7 @@ if (secrets.exists()) {
 }
 
 task uploadIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.uploader.Uploader'
@@ -46,7 +47,7 @@ task uploadIcons(type: JavaExec) {
 }
 
 task generateMissingIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconGenerator'
@@ -55,7 +56,7 @@ task generateMissingIcons(type: JavaExec) {
 }
 
 task regenerateIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconGenerator'
@@ -65,7 +66,7 @@ task regenerateIcons(type: JavaExec) {
 }
 
 task clearIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.icongenerator.IconClearer'
@@ -74,7 +75,7 @@ task clearIcons(type: JavaExec) {
 }
 
 task reportUnusedIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.icons.UnusedIconReporter'
@@ -83,12 +84,27 @@ task reportUnusedIcons(type: JavaExec) {
 }
 
 task reportMissingIcons(type: JavaExec) {
-    group = 'application'
+    group = 'build'
 
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.almightyalpaca.jetbrains.plugins.discord.icons.MissingIconReporter'
 
     jvmArgs += '-Xmx1G'
+}
+
+task createIconZip(type: Zip) {
+    group 'build'
+
+    dependsOn generateMissingIcons
+
+    archiveName = 'icons.zip'
+
+    from fileTree('icons') {
+        include '*.json'
+        include '*/*_low.png'
+
+        into 'icons/'
+    }
 }
 
 String getCustomProperty(String name) {

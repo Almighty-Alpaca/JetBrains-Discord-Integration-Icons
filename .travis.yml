@@ -10,3 +10,16 @@ install:
 
 script:
 - "./gradlew uploadIcons"
+- "./gradlew createIconZip"
+
+before_deploy:
+  - git config --local user.name "Almighty Alpaca"
+  - git config --local user.email "aljoschagrebe@gmail.com"
+  - git tag "$(git rev-parse --short HEAD)"
+
+deploy:
+  provider: releases
+  api_key:
+    secure: "N4TygxB5oZGrBh0uPxu4kHgH1JtZrC92gVCGY40gGbRvCWO1HJMnHvh/Zph/ZiNqqj8mHZ2HXpowGuG5wuYZUkFvxKGUZ7EEPP+y961xKirmP6hp4Wlj4BXuP99cCcMfjWhlUA4mGQ8oieRVfCKQMkMrWJX3QrB11iaKGq1ZpOqaRrfsJCZ3GV8s8MqhxjGe5B3H9BgS8uTJdurICuMnHGaje7ZjRlg2gIEJH14hZKyBp7WuBw/9CwB3eW0asjXHqiIhat1ZxUZjHAyNUyu8PL42Pk5KCGmpnCY/PpH2UUBIHa3RN9/BgaX/iRuOydlhog8RiosWryjCq26TNpRRuUtshjZa6/njfvyvFiVNQaCcHcwzUV24zeqHVwF8oOACdIuJ8HLLfPseCB85SbuSkWaqCUFxFNR2D1Cre2iB1g+aTPTW5C2AxNo7yw+HUzAQRVh9qxVm6rZIfOhAq7eo1ePz0ExJNncrYBrLRTVuJO29yjJxUOFSXtc+bMtC8ITi77tOPfTSSDs6CNHdXF7A0o6h9wfsQ22C8zR/dbJJC5oDLKAGdZ+pOvz5hVVR9zUPK3CZwVjZDQIiSCFnha7Skv2iWKZ3kELeaeam5nqm/ODc7eYdQ7zwqKsegeEgL4Nn/yKlUFCTE6TEnuj9NC/JrZ1btpzKphz36Sk4gs6w4/o="
+  file: build/distributions/icons.zip
+  skip_cleanup: true
