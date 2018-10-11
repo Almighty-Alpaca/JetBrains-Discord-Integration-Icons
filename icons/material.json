@@ -1386,7 +1386,7 @@
     },
     {
       "name": "Fish",
-      "asset": "shell",
+      "asset": "terminal",
       "matcher": {
         "filename": [
           {
@@ -2688,7 +2688,7 @@
     },
     {
       "name": "PowerShell",
-      "asset": "powershell",
+      "asset": "terminal",
       "matcher": {
         "filename": [
           {
@@ -2980,7 +2980,7 @@
     },
     {
       "name": "Shell",
-      "asset": "shell",
+      "asset": "terminal",
       "matcher": {
         "filename": [
           {
@@ -3514,7 +3514,7 @@
     },
     {
       "name": "Batch",
-      "asset": "shell",
+      "asset": "terminal",
       "matcher": {
         "filename": [
           {
