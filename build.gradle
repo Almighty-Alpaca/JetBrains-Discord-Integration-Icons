@@ -117,6 +117,12 @@ tasks.create(name: "ci") {
         dependsOn(uploadIcons, createIconZip)
 }
 
+tasks.create(name: "cacheDependencies") {
+    doLast {
+        configurations.findAll { it.canBeResolved }.files
+    }
+}
+
 String getCustomProperty(String name) {
     if (project.properties[name])
         return project.properties[name]
