@@ -915,7 +915,7 @@
       }
     },
     {
-      "name": "Tonl",
+      "name": "Toml",
       "asset": "toml",
       "matcher": {
         "filename": [

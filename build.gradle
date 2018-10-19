@@ -31,7 +31,7 @@ dependencies {
     compile group: 'com.github.depsypher', name: 'pngtastic', version: '1.5'
 }
 
-def secrets = file("secrets.gradle")
+def secrets = file('secrets.gradle')
 if (secrets.exists()) {
     apply from: secrets
 }
@@ -105,6 +105,16 @@ task createIconZip(type: Zip) {
 
         into 'icons/'
     }
+}
+
+tasks.create(name: "ci") {
+    group = "ci"
+
+    def branch = System.getenv("TRAVIS_BRANCH")
+    def isPR = System.getenv("TRAVIS_PULL_REQUEST") != "false"
+
+    if (branch == "master" && !isPR)
+        dependsOn(uploadIcons, createIconZip)
 }
 
 String getCustomProperty(String name) {
