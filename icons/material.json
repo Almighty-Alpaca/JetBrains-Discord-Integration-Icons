@@ -3766,6 +3766,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Toml",
+      "asset": "toml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".toml"
+            ]
+          }
+        ]
+      }
     }
   ]
 }
