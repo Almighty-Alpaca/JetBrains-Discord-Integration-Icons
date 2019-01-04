@@ -3572,7 +3572,7 @@
           {
             "type": "RegEx",
             "match": [
-              "(?i)\\.(js|es6|es)$"
+              "(?i)\\.(js|es6|es|feature)$"
             ]
           }
         ]
@@ -3616,6 +3616,49 @@
             "variant": "endsWith",
             "match": [
               ".toml"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Assembly",
+      "asset": "asm",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(asm|s)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cabal",
+      "asset": "cabal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cabal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Node",
+      "asset": "nodejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(server|app)\\.js$"
             ]
           }
         ]
