@@ -330,7 +330,7 @@
     },
     {
       "name": "AngularJS",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -344,7 +344,7 @@
     },
     {
       "name": "Angular",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -358,7 +358,7 @@
     },
     {
       "name": "Angular Component",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -372,7 +372,7 @@
     },
     {
       "name": "Angular Directive",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -386,7 +386,7 @@
     },
     {
       "name": "Angular Guard",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -400,7 +400,7 @@
     },
     {
       "name": "Angular Service",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -414,7 +414,7 @@
     },
     {
       "name": "Angular Pipe",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -428,7 +428,7 @@
     },
     {
       "name": "Angular Routing",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -442,7 +442,7 @@
     },
     {
       "name": "Angular Resolver",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -486,7 +486,7 @@
     },
     {
       "name": "Angular-CLI",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -974,6 +974,21 @@
       }
     },
     {
+      "name": "Cucumber",
+      "asset": "text",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".feature"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "C++",
       "asset": "cpp",
       "matcher": {
@@ -1159,6 +1174,21 @@
             "type": "String",
             "match": [
               "Doxyfile"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drupal",
+      "asset": "php",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".drupal"
             ]
           }
         ]
@@ -2067,6 +2097,20 @@
       }
     },
     {
+      "name": "Mathematica",
+      "asset": "text",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(nb|ma|mb|cdf)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Matlab",
       "asset": "matlab",
       "matcher": {
@@ -2198,6 +2242,21 @@
       }
     },
     {
+      "name": "Nodemon",
+      "asset": "nodejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "contains",
+            "match": [
+              ".nodemon"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Note",
       "asset": "text",
       "matcher": {
@@ -2206,6 +2265,20 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(scratch|note)$"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Node",
+      "asset": "nodejs",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)(server|app)\\.js$"
             ]
           }
         ]
@@ -2365,6 +2438,21 @@
             "match": [
               ".patch",
 			  ".meld"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "PDF",
+      "asset": "binary",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".pdf"
             ]
           }
         ]
@@ -2543,7 +2631,7 @@
     },
     {
       "name": "Protractor",
-      "asset": "angular",
+      "asset": "typescript",
       "matcher": {
         "filename": [
           {
@@ -2723,6 +2811,21 @@
             "variant": "endsWith",
             "match": [
               ".rst"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Riot",
+      "asset": "js",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".riot"
             ]
           }
         ]
@@ -3181,6 +3284,20 @@
       }
     },
     {
+      "name": "Textmate",
+      "asset": "xml",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(tmPreferences|tmTheme)"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Tomcat",
       "asset": "tomcat",
       "matcher": {
@@ -3296,6 +3413,21 @@
       }
     },
     {
+      "name": "VHDL",
+      "asset": "text",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".vhdl"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Vim",
       "asset": "config",
       "matcher": {
@@ -3318,6 +3450,20 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(vscode|vssettings).*"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vue",
+      "asset": "js",
+      "matcher": {
+        "filename": [
+          {
+            "type": "RegEx",
+            "match": [
+              "(?i)\\.(vue|vuex)$"
             ]
           }
         ]
@@ -3645,20 +3791,6 @@
             "variant": "endsWith",
             "match": [
               ".cabal"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Node",
-      "asset": "nodejs",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)(server|app)\\.js$"
             ]
           }
         ]
