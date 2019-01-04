@@ -95,9 +95,6 @@ public class Uploader
 
                 try
                 {
-                    System.out.println("adding " + name);
-                    application.uploadAsset(icons.getParent().resolve(path), name);
-
                     for (String id : uploadedAssets.get(name))
                     {
                         System.out.println("removing " + name + " (" + id + ")");
@@ -110,6 +107,9 @@ public class Uploader
                             e.printStackTrace();
                         }
                     }
+
+                    System.out.println("adding " + name);
+                    application.uploadAsset(icons.getParent().resolve(path), name);
                 }
                 catch (IOException e)
                 {
@@ -136,21 +136,6 @@ public class Uploader
             DiscordApplication application = new DiscordApplication(client, theme.getApplication(), TOKEN);
             SetValuedMap<String, String> uploadedAssets = application.getUploadedAssets();
 
-            for (Path path : themeChanges.getAdded())
-            {
-                String name = FilenameUtils.getBaseName(path.getFileName().toString());
-
-                System.out.println("adding " + name);
-                try
-                {
-                    application.uploadAsset(icons.getParent().resolve(path), name);
-                }
-                catch (IOException e)
-                {
-                    e.printStackTrace();
-                }
-            }
-
             for (Path path : themeChanges.getRemoved())
             {
                 String name = FilenameUtils.getBaseName(path.getFileName().toString());
@@ -166,6 +151,21 @@ public class Uploader
                     {
                         e.printStackTrace();
                     }
+                }
+            }
+
+            for (Path path : themeChanges.getAdded())
+            {
+                String name = FilenameUtils.getBaseName(path.getFileName().toString());
+
+                System.out.println("adding " + name);
+                try
+                {
+                    application.uploadAsset(icons.getParent().resolve(path), name);
+                }
+                catch (IOException e)
+                {
+                    e.printStackTrace();
                 }
             }
         }

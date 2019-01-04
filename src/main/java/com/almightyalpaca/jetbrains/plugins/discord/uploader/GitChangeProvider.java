@@ -98,6 +98,7 @@ public class GitChangeProvider
 
         Collection<Path> removedPaths = removedFiles.stream()
                 .filter(path -> FilenameUtils.getExtension(path).equalsIgnoreCase("png"))
+                .filter(path -> !StringUtils.endsWithIgnoreCase(path, "_low.png"))
                 .map(Paths::get)
                 .filter(path -> path.startsWith("icons"))
                 .map(Path::toAbsolutePath)
@@ -106,6 +107,7 @@ public class GitChangeProvider
                 .collect(Collectors.toList());
         Collection<Path> addedPaths = addedFiles.stream()
                 .filter(path -> FilenameUtils.getExtension(path).equalsIgnoreCase("png"))
+                .filter(path -> !StringUtils.endsWithIgnoreCase(path, "_low.png"))
                 .map(Paths::get)
                 .map(Path::toAbsolutePath)
                 .distinct()
