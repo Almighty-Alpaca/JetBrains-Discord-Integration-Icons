@@ -299,21 +299,6 @@
       }
     },
     {
-      "name": "ES6",
-      "asset": "angular",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".es6"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "AspectJ",
       "asset": "java",
       "matcher": {
@@ -989,21 +974,6 @@
       }
     },
     {
-      "name": "Cucumber",
-      "asset": "cucumber",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".feature"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "C++",
       "asset": "cpp",
       "matcher": {
@@ -1189,21 +1159,6 @@
             "type": "String",
             "match": [
               "Doxyfile"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Drupal",
-      "asset": "drupal",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".drupal"
             ]
           }
         ]
@@ -2112,20 +2067,6 @@
       }
     },
     {
-      "name": "Mathematica",
-      "asset": "mathematica",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(nb|ma|mb|cdf)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Matlab",
       "asset": "matlab",
       "matcher": {
@@ -2257,21 +2198,6 @@
       }
     },
     {
-      "name": "Nodemon",
-      "asset": "nodejs",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "contains",
-            "match": [
-              ".nodemon"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Note",
       "asset": "text",
       "matcher": {
@@ -2280,20 +2206,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(scratch|note)$"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Node",
-      "asset": "nodejs",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)(server|app)\\.js$"
             ]
           }
         ]
@@ -2453,21 +2365,6 @@
             "match": [
               ".patch",
 			  ".meld"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "PDF",
-      "asset": "pdf",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".pdf"
             ]
           }
         ]
@@ -2826,21 +2723,6 @@
             "variant": "endsWith",
             "match": [
               ".rst"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Riot",
-      "asset": "riot",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".riot"
             ]
           }
         ]
@@ -3299,20 +3181,6 @@
       }
     },
     {
-      "name": "Textmate",
-      "asset": "textmate",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(tmPreferences|tmTheme)"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Tomcat",
       "asset": "tomcat",
       "matcher": {
@@ -3428,21 +3296,6 @@
       }
     },
     {
-      "name": "VHDL",
-      "asset": "vhdl",
-      "matcher": {
-        "filename": [
-          {
-            "type": "String",
-            "variant": "endsWith",
-            "match": [
-              ".vhdl"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Vim",
       "asset": "config",
       "matcher": {
@@ -3465,20 +3318,6 @@
             "type": "RegEx",
             "match": [
               "(?i)\\.(vscode|vssettings).*"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Vue",
-      "asset": "vue",
-      "matcher": {
-        "filename": [
-          {
-            "type": "RegEx",
-            "match": [
-              "(?i)\\.(vue|vuex)$"
             ]
           }
         ]
