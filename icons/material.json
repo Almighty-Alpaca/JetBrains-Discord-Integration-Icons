@@ -3663,6 +3663,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "Nim",
+      "asset": "nim",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".nim"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "asset": "crystal",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".cr"
+            ]
+          }
+        ]
+      }
     }
   ]
 }
