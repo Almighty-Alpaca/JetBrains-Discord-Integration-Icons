@@ -975,7 +975,7 @@
     },
     {
       "name": "Cucumber",
-      "asset": "text",
+      "asset": "js",
       "matcher": {
         "filename": [
           {
@@ -1079,7 +1079,7 @@
       }
     },
     {
-      "name": "DLang",
+      "name": "D\u200B",
       "asset": "dlang",
       "matcher": {
         "filename": [
@@ -1225,6 +1225,21 @@
       }
     },
     {
+      "name": "SO",
+      "asset": "binary",
+      "matcher": {
+        "filename": [
+          {
+            "type": "String",
+            "variant": "endsWith",
+            "match": [
+              ".so"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "EditorConfig",
       "asset": "editorconfig",
       "matcher": {
@@ -1342,7 +1357,7 @@
       }
     },
     {
-      "name": "ErLang",
+      "name": "Erlang",
       "asset": "erlang",
       "matcher": {
         "filename": [
@@ -1689,7 +1704,7 @@
     },
     {
       "name": "HTAccess",
-      "asset": "apache",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
@@ -2445,7 +2460,7 @@
     },
     {
       "name": "PDF",
-      "asset": "binary",
+      "asset": "text",
       "matcher": {
         "filename": [
           {
