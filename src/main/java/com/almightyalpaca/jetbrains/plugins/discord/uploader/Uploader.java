@@ -13,6 +13,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collection;
+import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
@@ -89,6 +90,24 @@ public class Uploader
                     .sorted()
                     .collect(Collectors.toList());
 
+            // delete removed
+            uploadedAssets.entries().stream()
+                    .filter(entry -> paths.stream()
+                            .map(path -> FilenameUtils.getBaseName(path.getFileName().toString()))
+                            .anyMatch(name -> name.equals(entry.getKey())))
+                    .forEach(entry -> {
+                        System.out.println("removing " + entry.getKey() + " (" + entry.getValue() + ")");
+                        try
+                        {
+                            application.deleteAsset(entry.getValue());
+                        }
+                        catch (IOException e)
+                        {
+                            e.printStackTrace();
+                        }
+                    });
+
+            // remove + re-add updated
             for (Path path : paths)
             {
                 String name = FilenameUtils.getBaseName(path.getFileName().toString());

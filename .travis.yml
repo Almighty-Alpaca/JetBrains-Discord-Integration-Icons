@@ -7,7 +7,7 @@ branches:
     - master
 
 before_install:
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then openssl aes-256-cbc -K $encrypted_c869e7205488_key -iv $encrypted_c869e7205488_iv -in secrets.gradle.enc -out secrets.gradle -d; fi
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then sed "s|<TOKEN>|${DISCORD_TOKEN}|g" secrets.gradle.example > secrets.gradle; fi
   - chmod +x gradlew
 
 install:
